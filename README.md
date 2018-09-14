@@ -29,8 +29,8 @@ open cmd in Windows or terminal in Linux, then cd to the PredGly/codes folder wh
 </br>`python predict.py -input [custom predicting data in txt format] -threshold [threshold value] -output [ predicting results in csv format]`  
 </br>**Example:**
 </br>`python predict.py -input ../codes/example.txt -threshold 0.5 -output ../codes/results.csv`
-
 </br>-output is optional parameter, while -input and -threshold are required parameters. Prediction results will show in the cmd or terminal, and if you don't want to save results, you need not input -output.
+
 </br>**Example:**
 </br>`python predict.py -input ../codes/example.txt -threshold 0.5`
 
