@@ -10,5 +10,7 @@ PredGly uses a machine learning method to predit lysine glycation sites for homo
 </br>`pip install scikit-learn`
 # Running PredGly
 cd to the PredGly/codes folder which contains predict.py
-For general glycation site prediction using our model, run:
+</br>**For general glycation site prediction using our model, run:**
 </br>`python predict.py -input [custom predicting data in txt format] -threshold [threshold value]`  
+</br>**Example:**
+</br>`python predict.py -input ../codes/example.txt -threshold 0.5`
