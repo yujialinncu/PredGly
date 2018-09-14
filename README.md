@@ -11,20 +11,21 @@ pip install scipy
 pip install scikit-learn
 ```
 * If you meet an error after inputting above commands in Linux, the specific contents are as follows:
-</br>>Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/sklearn'
-Consider using the `--user` option or check the permissions.
+</br>Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/sklearn'
+Consider using the '--user' option or check the permissions.
 </br>Users can change the commands into:
-</br>`pip install numpy --user` 
-</br>`pip install pandas --user`
-</br>`pip install matplotlib --user`
-</br>`pip install scipy --user`
-</br>`pip install scikit-learn --user`
-
+```
+pip install numpy --user
+pip install pandas --user
+pip install matplotlib --user
+pip install scipy --user
+pip install scikit-learn --user
+```
 # Running PredGly
 open cmd in Windows or terminal in Linux, then cd to the PredGly/codes folder which contains predict.py
 </br>**For general glycation site prediction using our model, run:**
 </br>`python predict.py -input [custom predicting data in txt format] -threshold [threshold value] -output [custom specified file for predicting results]`  
 </br>**Example:**
 </br>`python predict.py -input ../codes/example.txt -threshold 0.5`
-**For details of other parameters, run:**
+</br>**For details of other parameters, run:**
 </br>`python predict.py -input ../codes/example.txt -threshold 0.5`
