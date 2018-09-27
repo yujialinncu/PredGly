@@ -24,7 +24,7 @@ pip install scikit-learn --user
 ```
 
 # Running PredGly
-open cmd in Windows or terminal in Linux, then cd to the PredGly/codes folder which contains predict.py
+open cmd in Windows or terminal in Linux, then cd to the PredGly-master/codes folder which contains predict.py
 </br>**For general glycation site prediction using our model, run:**
 </br>`python predict.py -input [custom predicting data in txt format] -threshold [threshold value] -output [ predicting results in csv format]`  
 </br>**Example:**
