@@ -38,6 +38,6 @@ open cmd in Windows or terminal in Linux, then cd to the PredGly-master/codes fo
 </br>`python predict.py -h`
 
 # Announcements
-* In order to obtain the prediction results, please save the query protein sequences and protein name in txt format. Users can refer to the example.txt under the codes folder. Also of note, each protein name should be added by '>', otherwise the program will not occur error.
+* In order to obtain the prediction results, please save the query protein sequences and protein name in txt format. Users can refer to the example.txt under the codes folder. Also of note, each protein name should be added by '>', otherwise the program will occur error.
 * The accepted amino acids are: A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y, and a virtual amino acid O. If the protein fragments contain other amino acids, the program only will predict fragments which contain above-mentioned 21 amino acids. 
 * To save the prediction results, the -ouput should be in csv format.
